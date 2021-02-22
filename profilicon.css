@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: #252525;
+}
+
+.profilePicture {
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOCvHebQhlY9IGWBTmVcdGbDsLEBU2Cv6anw&usqp=CAU);
+    border-radius: 100%;
+    border-style:solid;
+    border-color:white;
+    width: 200px;
+    height: 200px;
+    position:relative;
+}
+.profileStatus {
+  border-radius:100%;
+  width:15px;
+  height:15px;
+  background-color:limegreen;
+  position:absolute;
+  top:190px;
+  right:865px;
+}
